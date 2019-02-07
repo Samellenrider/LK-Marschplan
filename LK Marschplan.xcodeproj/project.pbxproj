@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3935B321F8B39700728F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935B221F8B39700728F50 /* AppDelegate.swift */; };
+		0C3935B521F8B39700728F50 /* AdressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935B421F8B39700728F50 /* AdressListViewController.swift */; };
+		0C3935B821F8B39700728F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3935B621F8B39700728F50 /* Main.storyboard */; };
+		0C3935BA21F8B39800728F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3935B921F8B39800728F50 /* Assets.xcassets */; };
+		0C3935BD21F8B39800728F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3935BB21F8B39800728F50 /* LaunchScreen.storyboard */; };
+		0C3935C821F8B39800728F50 /* LK_MarschplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935C721F8B39800728F50 /* LK_MarschplanTests.swift */; };
+		0C3935D321F8B39800728F50 /* LK_MarschplanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */; };
+		0C3935E121F8B50F00728F50 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935E021F8B50F00728F50 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C3935C421F8B39800728F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C3935A721F8B39700728F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3935AE21F8B39700728F50;
+			remoteInfo = "LK Marschplan";
+		};
+		0C3935CF21F8B39800728F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C3935A721F8B39700728F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3935AE21F8B39700728F50;
+			remoteInfo = "LK Marschplan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3935AF21F8B39700728F50 /* LK Marschplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LK Marschplan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3935B221F8B39700728F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C3935B421F8B39700728F50 /* AdressListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressListViewController.swift; sourceTree = "<group>"; };
+		0C3935B721F8B39700728F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C3935B921F8B39800728F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C3935BC21F8B39800728F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C3935BE21F8B39800728F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3935C321F8B39800728F50 /* LK MarschplanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LK MarschplanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3935C721F8B39800728F50 /* LK_MarschplanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LK_MarschplanTests.swift; sourceTree = "<group>"; };
+		0C3935C921F8B39800728F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3935CE21F8B39800728F50 /* LK MarschplanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LK MarschplanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LK_MarschplanUITests.swift; sourceTree = "<group>"; };
+		0C3935D421F8B39800728F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3935E021F8B50F00728F50 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3935AC21F8B39700728F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3935C021F8B39800728F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3935CB21F8B39800728F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3935A621F8B39700728F50 = {
+			isa = PBXGroup;
+			children = (
+				0C3935B121F8B39700728F50 /* LK Marschplan */,
+				0C3935C621F8B39800728F50 /* LK MarschplanTests */,
+				0C3935D121F8B39800728F50 /* LK MarschplanUITests */,
+				0C3935B021F8B39700728F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C3935B021F8B39700728F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C3935AF21F8B39700728F50 /* LK Marschplan.app */,
+				0C3935C321F8B39800728F50 /* LK MarschplanTests.xctest */,
+				0C3935CE21F8B39800728F50 /* LK MarschplanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C3935B121F8B39700728F50 /* LK Marschplan */ = {
+			isa = PBXGroup;
+			children = (
+				0C3935B221F8B39700728F50 /* AppDelegate.swift */,
+				0C3935B421F8B39700728F50 /* AdressListViewController.swift */,
+				0C3935E021F8B50F00728F50 /* SettingsViewController.swift */,
+				0C3935B621F8B39700728F50 /* Main.storyboard */,
+				0C3935B921F8B39800728F50 /* Assets.xcassets */,
+				0C3935BB21F8B39800728F50 /* LaunchScreen.storyboard */,
+				0C3935BE21F8B39800728F50 /* Info.plist */,
+			);
+			path = "LK Marschplan";
+			sourceTree = "<group>";
+		};
+		0C3935C621F8B39800728F50 /* LK MarschplanTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C3935C721F8B39800728F50 /* LK_MarschplanTests.swift */,
+				0C3935C921F8B39800728F50 /* Info.plist */,
+			);
+			path = "LK MarschplanTests";
+			sourceTree = "<group>";
+		};
+		0C3935D121F8B39800728F50 /* LK MarschplanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */,
+				0C3935D421F8B39800728F50 /* Info.plist */,
+			);
+			path = "LK MarschplanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3935AE21F8B39700728F50 /* LK Marschplan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3935D721F8B39800728F50 /* Build configuration list for PBXNativeTarget "LK Marschplan" */;
+			buildPhases = (
+				0C3935AB21F8B39700728F50 /* Sources */,
+				0C3935AC21F8B39700728F50 /* Frameworks */,
+				0C3935AD21F8B39700728F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LK Marschplan";
+			productName = "LK Marschplan";
+			productReference = 0C3935AF21F8B39700728F50 /* LK Marschplan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C3935C221F8B39800728F50 /* LK MarschplanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3935DA21F8B39800728F50 /* Build configuration list for PBXNativeTarget "LK MarschplanTests" */;
+			buildPhases = (
+				0C3935BF21F8B39800728F50 /* Sources */,
+				0C3935C021F8B39800728F50 /* Frameworks */,
+				0C3935C121F8B39800728F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C3935C521F8B39800728F50 /* PBXTargetDependency */,
+			);
+			name = "LK MarschplanTests";
+			productName = "LK MarschplanTests";
+			productReference = 0C3935C321F8B39800728F50 /* LK MarschplanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C3935CD21F8B39800728F50 /* LK MarschplanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3935DD21F8B39800728F50 /* Build configuration list for PBXNativeTarget "LK MarschplanUITests" */;
+			buildPhases = (
+				0C3935CA21F8B39800728F50 /* Sources */,
+				0C3935CB21F8B39800728F50 /* Frameworks */,
+				0C3935CC21F8B39800728F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C3935D021F8B39800728F50 /* PBXTargetDependency */,
+			);
+			name = "LK MarschplanUITests";
+			productName = "LK MarschplanUITests";
+			productReference = 0C3935CE21F8B39800728F50 /* LK MarschplanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C3935A721F8B39700728F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sam;
+				TargetAttributes = {
+					0C3935AE21F8B39700728F50 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0C3935C221F8B39800728F50 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C3935AE21F8B39700728F50;
+					};
+					0C3935CD21F8B39800728F50 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C3935AE21F8B39700728F50;
+					};
+				};
+			};
+			buildConfigurationList = 0C3935AA21F8B39700728F50 /* Build configuration list for PBXProject "LK Marschplan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C3935A621F8B39700728F50;
+			productRefGroup = 0C3935B021F8B39700728F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3935AE21F8B39700728F50 /* LK Marschplan */,
+				0C3935C221F8B39800728F50 /* LK MarschplanTests */,
+				0C3935CD21F8B39800728F50 /* LK MarschplanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C3935AD21F8B39700728F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3935BD21F8B39800728F50 /* LaunchScreen.storyboard in Resources */,
+				0C3935BA21F8B39800728F50 /* Assets.xcassets in Resources */,
+				0C3935B821F8B39700728F50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3935C121F8B39800728F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3935CC21F8B39800728F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3935AB21F8B39700728F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3935B521F8B39700728F50 /* AdressListViewController.swift in Sources */,
+				0C3935B321F8B39700728F50 /* AppDelegate.swift in Sources */,
+				0C3935E121F8B50F00728F50 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3935BF21F8B39800728F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3935C821F8B39800728F50 /* LK_MarschplanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3935CA21F8B39800728F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3935D321F8B39800728F50 /* LK_MarschplanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C3935C521F8B39800728F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3935AE21F8B39700728F50 /* LK Marschplan */;
+			targetProxy = 0C3935C421F8B39800728F50 /* PBXContainerItemProxy */;
+		};
+		0C3935D021F8B39800728F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3935AE21F8B39700728F50 /* LK Marschplan */;
+			targetProxy = 0C3935CF21F8B39800728F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C3935B621F8B39700728F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3935B721F8B39700728F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C3935BB21F8B39800728F50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3935BC21F8B39800728F50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C3935D521F8B39800728F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C3935D621F8B39800728F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C3935D821F8B39800728F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "LK Marschplan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam.LK-Marschplan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C3935D921F8B39800728F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "LK Marschplan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam.LK-Marschplan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C3935DB21F8B39800728F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "LK MarschplanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam.LK-MarschplanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LK Marschplan.app/LK Marschplan";
+			};
+			name = Debug;
+		};
+		0C3935DC21F8B39800728F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "LK MarschplanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam.LK-MarschplanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LK Marschplan.app/LK Marschplan";
+			};
+			name = Release;
+		};
+		0C3935DE21F8B39800728F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "LK MarschplanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam.LK-MarschplanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LK Marschplan";
+			};
+			name = Debug;
+		};
+		0C3935DF21F8B39800728F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYL64BN5XW;
+				INFOPLIST_FILE = "LK MarschplanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam.LK-MarschplanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LK Marschplan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3935AA21F8B39700728F50 /* Build configuration list for PBXProject "LK Marschplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3935D521F8B39800728F50 /* Debug */,
+				0C3935D621F8B39800728F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3935D721F8B39800728F50 /* Build configuration list for PBXNativeTarget "LK Marschplan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3935D821F8B39800728F50 /* Debug */,
+				0C3935D921F8B39800728F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3935DA21F8B39800728F50 /* Build configuration list for PBXNativeTarget "LK MarschplanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3935DB21F8B39800728F50 /* Debug */,
+				0C3935DC21F8B39800728F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3935DD21F8B39800728F50 /* Build configuration list for PBXNativeTarget "LK MarschplanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3935DE21F8B39800728F50 /* Debug */,
+				0C3935DF21F8B39800728F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C3935A721F8B39700728F50 /* Project object */;
+}
