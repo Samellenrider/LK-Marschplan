@@ -1,6 +1,7 @@
 import UIKit
 import Foundation
 
+
 class AdressListViewController: UIViewController {
     
     @IBOutlet var addressTable: UITableView!
@@ -14,7 +15,7 @@ class AdressListViewController: UIViewController {
         let urlString = "comgooglemaps://?saddr=&daddr=\(address)&directionsmode=walking"
         let url = URL(string: urlString)
         
-        UIApplication.shared.openURL(url!)
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
@@ -22,6 +23,19 @@ class AdressListViewController: UIViewController {
         openAddressInGoogle("Hello")
         
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     @IBAction func testButton(_ sender: Any) {
         openAddressInGoogle("hello")

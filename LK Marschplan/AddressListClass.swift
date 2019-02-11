@@ -1,7 +1,7 @@
 import UIKit
 import Foundation
 
-class AddressList {
+class AddressListClass {
 
   struct Address {
     

@@ -15,7 +15,7 @@
 		0C3935C821F8B39800728F50 /* LK_MarschplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935C721F8B39800728F50 /* LK_MarschplanTests.swift */; };
 		0C3935D321F8B39800728F50 /* LK_MarschplanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */; };
 		0C3935E121F8B50F00728F50 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935E021F8B50F00728F50 /* SettingsViewController.swift */; };
-		0C9C5C762211A8F2005DF1B5 /* AddressProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9C5C752211A8F2005DF1B5 /* AddressProtocol.swift */; };
+		0C9C5C762211A8F2005DF1B5 /* AddressListClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LK_MarschplanUITests.swift; sourceTree = "<group>"; };
 		0C3935D421F8B39800728F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3935E021F8B50F00728F50 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		0C9C5C752211A8F2005DF1B5 /* AddressProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressProtocol.swift; sourceTree = "<group>"; };
+		0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				0C3935B221F8B39700728F50 /* AppDelegate.swift */,
 				0C3935B421F8B39700728F50 /* AdressListViewController.swift */,
-				0C9C5C752211A8F2005DF1B5 /* AddressProtocol.swift */,
+				0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */,
 				0C3935E021F8B50F00728F50 /* SettingsViewController.swift */,
 				0C3935B621F8B39700728F50 /* Main.storyboard */,
 				0C3935B921F8B39800728F50 /* Assets.xcassets */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9C5C762211A8F2005DF1B5 /* AddressProtocol.swift in Sources */,
+				0C9C5C762211A8F2005DF1B5 /* AddressListClass.swift in Sources */,
 				0C3935B521F8B39700728F50 /* AdressListViewController.swift in Sources */,
 				0C3935B321F8B39700728F50 /* AppDelegate.swift in Sources */,
 				0C3935E121F8B50F00728F50 /* SettingsViewController.swift in Sources */,
