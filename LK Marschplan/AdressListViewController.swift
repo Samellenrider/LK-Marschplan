@@ -1,6 +1,7 @@
 import UIKit
 import Foundation
 
+let addressListClass = AddressListClass()
 
 class AdressListViewController: UIViewController {
     
