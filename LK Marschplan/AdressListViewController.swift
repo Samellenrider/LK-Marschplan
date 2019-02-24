@@ -23,18 +23,18 @@ fileprivate func parseDate(_ str: String) -> Date {
     return dateformatter.date(from: str)!
 }
 
+var addresses: Array = [
+    Address(id: 1, date: parseDate("22.07.2019"), time: "05:30", name: "Hugo Breitling", address: "Schützenstraße+7+Ravensburg", navigationButton: addressButton),
+    Address(id: 2, date: parseDate("23.07.2019"), time: "06:45", name: "Peter Maffay", address: "Federburg+Straße+23+Ravensburg", navigationButton: addressButton),
+    Address(id: 3, date: parseDate("24.07.2019"), time: "06:15", name: "Arthur Binder", address: "Marienplatz+3+Ravensburg", navigationButton: addressButton)
+]
+
 
 class AdressListViewController: UIViewController {
     
-    var firstAdress: String?
+//    var firstAdress: String?
     
     @IBOutlet var addressTable: UITableView!
-    
-    var addresses = [
-        Address(id: 1, date: parseDate("22.07.2019"), time: "05:30", name: "Hugo Breitling", address: "Schützenstraße+7+Ravensburg", navigationButton: addressButton),
-        Address(id: 2, date: parseDate("23.07.2019"), time: "06:45", name: "Peter Maffay", address: "Federburg+Straße+23+Ravensburg", navigationButton: addressButton),
-        Address(id: 3, date: parseDate("24.07.2019"), time: "06:15", name: "Arthur Binder", address: "Marienplatz+3+Ravensburg", navigationButton: addressButton)
-    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,9 +63,11 @@ class AdressListViewController: UIViewController {
     
     @IBAction func testButton(_ sender: Any) {
         
-        firstAdress =  addresses[0].address
+        print(addresses)
         
-        openAddressInGoogle(firstAdress ?? "Tokyo")
+        let firstAdress =  addresses.first?.address
+        
+        openAddressInGoogle(firstAdress!)
     }
     
 }
