@@ -59,16 +59,15 @@ class AdressListViewController: UIViewController {
     
     
     
-    
-    
     @IBAction func testButton(_ sender: Any) {
-        
         print(addresses)
         
         let firstAdress =  addresses.first?.address
         
         openAddressInGoogle(firstAdress!)
     }
+    
+    
     
 }
 
