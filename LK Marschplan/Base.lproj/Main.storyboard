@@ -62,6 +62,9 @@
                         <viewLayoutGuide key="safeArea" id="k6m-8d-aCy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Einstellungen" id="aPO-Jq-LDY"/>
+                    <connections>
+                        <outlet property="prideModeSwitch" destination="OrL-kF-NYu" id="pB7-ZS-9Yx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="21s-Ys-8Dd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
