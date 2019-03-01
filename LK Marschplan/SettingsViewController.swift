@@ -11,6 +11,16 @@ class SettingsViewController: UIViewController {
         
     }
     
+    
+    @IBAction func prideModeSwitchActivated(_ sender: Any) {
+        
+        
+    }
+    
+    
+    
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         
     }
