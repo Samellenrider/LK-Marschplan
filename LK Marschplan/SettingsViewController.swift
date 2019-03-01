@@ -7,6 +7,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         prideModeSwitch.isOn = false
         
     }

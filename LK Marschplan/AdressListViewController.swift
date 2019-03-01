@@ -35,12 +35,12 @@ class AdressListViewController: UIViewController {
 //    var firstAdress: String?
     
     @IBOutlet var addressTable: UITableView!
+    @IBOutlet var settingsButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        debugPrint(addresses[0].address)
         
+//        UINavigationBar.appearance().backgroundColor = UIColor(red:0.49, green:0.83, blue:0.99, alpha:1.0)
     }
     
     func openAddressInGoogle(_ address: String) {
