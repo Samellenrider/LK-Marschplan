@@ -319,7 +319,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="auswärtigerButton" destination="BOT-Gb-l4b" id="ByQ-Cz-SZV"/>
+                        <outlet property="dienstagButton" destination="lYN-8B-gk4" id="6Ki-Od-Oe3"/>
+                        <outlet property="freitagButton" destination="gy3-vO-4aZ" id="Z0C-UM-JRi"/>
+                        <outlet property="montagButton" destination="JBu-lg-qxA" id="ETG-WO-o0X"/>
+                        <outlet property="samstagButton" destination="7DC-md-yV7" id="tme-vH-h3Z"/>
                         <outlet property="settingsButton" destination="b2w-11-LkN" id="pCD-OM-1Yn"/>
+                        <outlet property="sonntagButton" destination="51v-Hd-qVJ" id="bjx-04-X47"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TdM-3j-U3D" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -37,10 +37,24 @@ class AdressListViewController: UIViewController {
     @IBOutlet var addressTable: UITableView!
     @IBOutlet var settingsButton: UIBarButtonItem!
     
+    @IBOutlet var freitagButton: UIButton!
+    @IBOutlet var samstagButton: UIButton!
+    @IBOutlet var sonntagButton: UIButton!
+    @IBOutlet var montagButton: UIButton!
+    @IBOutlet var dienstagButton: UIButton!
+    @IBOutlet var auswärtigerButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        UINavigationBar.appearance().backgroundColor = UIColor(red:0.49, green:0.83, blue:0.99, alpha:1.0)
+        freitagButton.layer.cornerRadius = 10
+        samstagButton.layer.cornerRadius = 10
+        sonntagButton.layer.cornerRadius = 10
+        montagButton.layer.cornerRadius = 10
+        dienstagButton.layer.cornerRadius = 10
+        auswärtigerButton.layer.cornerRadius = 10
+        
+        
     }
     
     func openAddressInGoogle(_ address: String) {
