@@ -47,12 +47,12 @@ class AdressListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        freitagButton.layer.cornerRadius = 10
-        samstagButton.layer.cornerRadius = 10
-        sonntagButton.layer.cornerRadius = 10
-        montagButton.layer.cornerRadius = 10
-        dienstagButton.layer.cornerRadius = 10
-        auswärtigerButton.layer.cornerRadius = 10
+        freitagButton.layer.cornerRadius = 7
+        samstagButton.layer.cornerRadius = 7
+        sonntagButton.layer.cornerRadius = 7
+        montagButton.layer.cornerRadius = 7
+        dienstagButton.layer.cornerRadius = 7
+        auswärtigerButton.layer.cornerRadius = 7
         
         freitagButton.layer.shadowColor = UIColor.black.cgColor
         samstagButton.layer.shadowColor = UIColor.black.cgColor
@@ -61,12 +61,12 @@ class AdressListViewController: UIViewController {
         dienstagButton.layer.shadowColor = UIColor.black.cgColor
         auswärtigerButton.layer.shadowColor = UIColor.black.cgColor
         
-        freitagButton.layer.shadowRadius = 10
-        samstagButton.layer.shadowRadius = 10
-        sonntagButton.layer.shadowRadius = 10
-        montagButton.layer.shadowRadius = 10
-        dienstagButton.layer.shadowRadius = 10
-        auswärtigerButton.layer.shadowRadius = 10
+        freitagButton.layer.shadowRadius = 7
+        samstagButton.layer.shadowRadius = 7
+        sonntagButton.layer.shadowRadius = 7
+        montagButton.layer.shadowRadius = 7
+        dienstagButton.layer.shadowRadius = 7
+        auswärtigerButton.layer.shadowRadius = 7
         
         freitagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
         samstagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
