@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C148FE92245327000C061D2 /* AdressLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AdressLists;
+			sourceTree = "<group>";
+		};
 		0C3935A621F8B39700728F50 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,7 @@
 		0C3935B121F8B39700728F50 /* LK Marschplan */ = {
 			isa = PBXGroup;
 			children = (
+				0C148FE92245327000C061D2 /* AdressLists */,
 				0C3935B221F8B39700728F50 /* AppDelegate.swift */,
 				0C3935B421F8B39700728F50 /* AdressListViewController.swift */,
 				0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */,
