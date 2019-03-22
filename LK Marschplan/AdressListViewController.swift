@@ -68,19 +68,19 @@ class AdressListViewController: UIViewController {
         dienstagButton.layer.shadowRadius = 10
         auswärtigerButton.layer.shadowRadius = 10
         
-        freitagButton.layer.shadowOffset = CGSize(width: 0, height: 3)
-        samstagButton.layer.shadowOffset = CGSize(width: 0, height: 3)
-        sonntagButton.layer.shadowOffset = CGSize(width: 0, height: 3)
-        montagButton.layer.shadowOffset = CGSize(width: 0, height: 3)
-        dienstagButton.layer.shadowOffset = CGSize(width: 0, height: 3)
-        auswärtigerButton.layer.shadowOffset = CGSize(width: 0, height: 3)
+        freitagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
+        samstagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
+        sonntagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
+        montagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
+        dienstagButton.layer.shadowOffset = CGSize(width: 5, height: 5)
+        auswärtigerButton.layer.shadowOffset = CGSize(width: 5, height: 5)
         
-        freitagButton.layer.shadowOpacity = 1.0
-        samstagButton.layer.shadowOpacity = 1.0
-        sonntagButton.layer.shadowOpacity = 1.0
-        montagButton.layer.shadowOpacity = 1.0
-        dienstagButton.layer.shadowOpacity = 1.0
-        auswärtigerButton.layer.shadowOpacity = 1.0
+        freitagButton.layer.shadowOpacity = 0.8
+        samstagButton.layer.shadowOpacity = 0.8
+        sonntagButton.layer.shadowOpacity = 0.8
+        montagButton.layer.shadowOpacity = 0.8
+        dienstagButton.layer.shadowOpacity = 0.8
+        auswärtigerButton.layer.shadowOpacity = 0.8
     }
     
     func openAddressInGoogle(_ address: String) {
