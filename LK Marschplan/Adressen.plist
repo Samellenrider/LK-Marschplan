@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Auswärtiger</key>
+	<array>
+		<string>Dr Keck</string>
+		<string>Whirly</string>
+		<string>Papa Bürger</string>
+	</array>
+	<key>Dienstag</key>
+	<array>
+		<string>Josch</string>
+		<string>Nico</string>
+		<string>Edosa</string>
+	</array>
+	<key>Montag</key>
+	<array>
+		<string>Burgie</string>
+		<string>Franky</string>
+		<string>Lauch</string>
+	</array>
+	<key>Sonntag</key>
+	<array>
+		<string>Simon</string>
+		<string>Dante</string>
+		<string>Florin</string>
+	</array>
+	<key>Samstag</key>
+	<array>
+		<string>Peter</string>
+		<string>Kai</string>
+		<string>Gerd</string>
+	</array>
+	<key>Freitag</key>
+	<array>
+		<string>Seppl</string>
+		<string>Florin</string>
+		<string>Sam</string>
+	</array>
+</dict>
+</plist>

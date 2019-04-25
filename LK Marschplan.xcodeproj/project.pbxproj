@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C148FEB22453D0800C061D2 /* MontagAdressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FEA22453D0800C061D2 /* MontagAdressen.plist */; };
-		0C148FED22453D2200C061D2 /* DienstagAdressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FEC22453D2200C061D2 /* DienstagAdressen.plist */; };
-		0C148FEF22453D3100C061D2 /* FreitagAdressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FEE22453D3100C061D2 /* FreitagAdressen.plist */; };
-		0C148FF122453D4300C061D2 /* SamstagAdressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FF022453D4300C061D2 /* SamstagAdressen.plist */; };
-		0C148FF322453D5D00C061D2 /* SonntagAdressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FF222453D5D00C061D2 /* SonntagAdressen.plist */; };
-		0C148FF522453D6F00C061D2 /* AuswärtigerAdressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FF422453D6F00C061D2 /* AuswärtigerAdressen.plist */; };
+		0C148FEF22453D3100C061D2 /* Adressen.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C148FEE22453D3100C061D2 /* Adressen.plist */; };
 		0C3935B321F8B39700728F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935B221F8B39700728F50 /* AppDelegate.swift */; };
 		0C3935B521F8B39700728F50 /* AdressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935B421F8B39700728F50 /* AdressListViewController.swift */; };
 		0C3935B821F8B39700728F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3935B621F8B39700728F50 /* Main.storyboard */; };
@@ -21,6 +16,12 @@
 		0C3935C821F8B39800728F50 /* LK_MarschplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935C721F8B39800728F50 /* LK_MarschplanTests.swift */; };
 		0C3935D321F8B39800728F50 /* LK_MarschplanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */; };
 		0C3935E121F8B50F00728F50 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3935E021F8B50F00728F50 /* SettingsViewController.swift */; };
+		0C5DD53322720651006BCC09 /* FreitagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DD53222720651006BCC09 /* FreitagViewController.swift */; };
+		0C5DD5352272065A006BCC09 /* SamstagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DD5342272065A006BCC09 /* SamstagViewController.swift */; };
+		0C5DD5372272066A006BCC09 /* SonntagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DD5362272066A006BCC09 /* SonntagViewController.swift */; };
+		0C5DD53922720676006BCC09 /* MontagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DD53822720676006BCC09 /* MontagViewController.swift */; };
+		0C5DD53B22720680006BCC09 /* DienstagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DD53A22720680006BCC09 /* DienstagViewController.swift */; };
+		0C5DD53D2272068A006BCC09 /* AustwärtigerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DD53C2272068A006BCC09 /* AustwärtigerViewController.swift */; };
 		0C9C5C762211A8F2005DF1B5 /* AddressListClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,12 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C148FEA22453D0800C061D2 /* MontagAdressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MontagAdressen.plist; sourceTree = "<group>"; };
-		0C148FEC22453D2200C061D2 /* DienstagAdressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DienstagAdressen.plist; sourceTree = "<group>"; };
-		0C148FEE22453D3100C061D2 /* FreitagAdressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FreitagAdressen.plist; sourceTree = "<group>"; };
-		0C148FF022453D4300C061D2 /* SamstagAdressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SamstagAdressen.plist; sourceTree = "<group>"; };
-		0C148FF222453D5D00C061D2 /* SonntagAdressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SonntagAdressen.plist; sourceTree = "<group>"; };
-		0C148FF422453D6F00C061D2 /* AuswärtigerAdressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AuswärtigerAdressen.plist"; sourceTree = "<group>"; };
+		0C148FEE22453D3100C061D2 /* Adressen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Adressen.plist; sourceTree = "<group>"; };
 		0C3935AF21F8B39700728F50 /* LK Marschplan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LK Marschplan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3935B221F8B39700728F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C3935B421F8B39700728F50 /* AdressListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressListViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +58,12 @@
 		0C3935D221F8B39800728F50 /* LK_MarschplanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LK_MarschplanUITests.swift; sourceTree = "<group>"; };
 		0C3935D421F8B39800728F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3935E021F8B50F00728F50 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0C5DD53222720651006BCC09 /* FreitagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreitagViewController.swift; sourceTree = "<group>"; };
+		0C5DD5342272065A006BCC09 /* SamstagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamstagViewController.swift; sourceTree = "<group>"; };
+		0C5DD5362272066A006BCC09 /* SonntagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonntagViewController.swift; sourceTree = "<group>"; };
+		0C5DD53822720676006BCC09 /* MontagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontagViewController.swift; sourceTree = "<group>"; };
+		0C5DD53A22720680006BCC09 /* DienstagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DienstagViewController.swift; sourceTree = "<group>"; };
+		0C5DD53C2272068A006BCC09 /* AustwärtigerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AustwärtigerViewController.swift"; sourceTree = "<group>"; };
 		0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,19 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C148FE92245327000C061D2 /* AdressLists */ = {
-			isa = PBXGroup;
-			children = (
-				0C148FEE22453D3100C061D2 /* FreitagAdressen.plist */,
-				0C148FF022453D4300C061D2 /* SamstagAdressen.plist */,
-				0C148FF222453D5D00C061D2 /* SonntagAdressen.plist */,
-				0C148FEA22453D0800C061D2 /* MontagAdressen.plist */,
-				0C148FEC22453D2200C061D2 /* DienstagAdressen.plist */,
-				0C148FF422453D6F00C061D2 /* AuswärtigerAdressen.plist */,
-			);
-			path = AdressLists;
-			sourceTree = "<group>";
-		};
 		0C3935A621F8B39700728F50 = {
 			isa = PBXGroup;
 			children = (
@@ -126,15 +115,21 @@
 		0C3935B121F8B39700728F50 /* LK Marschplan */ = {
 			isa = PBXGroup;
 			children = (
-				0C148FE92245327000C061D2 /* AdressLists */,
 				0C3935B221F8B39700728F50 /* AppDelegate.swift */,
 				0C3935B421F8B39700728F50 /* AdressListViewController.swift */,
 				0C9C5C752211A8F2005DF1B5 /* AddressListClass.swift */,
 				0C3935E021F8B50F00728F50 /* SettingsViewController.swift */,
+				0C5DD53222720651006BCC09 /* FreitagViewController.swift */,
+				0C5DD5342272065A006BCC09 /* SamstagViewController.swift */,
+				0C5DD5362272066A006BCC09 /* SonntagViewController.swift */,
+				0C5DD53822720676006BCC09 /* MontagViewController.swift */,
+				0C5DD53A22720680006BCC09 /* DienstagViewController.swift */,
+				0C5DD53C2272068A006BCC09 /* AustwärtigerViewController.swift */,
 				0C3935B621F8B39700728F50 /* Main.storyboard */,
 				0C3935B921F8B39800728F50 /* Assets.xcassets */,
 				0C3935BB21F8B39800728F50 /* LaunchScreen.storyboard */,
 				0C3935BE21F8B39800728F50 /* Info.plist */,
+				0C148FEE22453D3100C061D2 /* Adressen.plist */,
 			);
 			path = "LK Marschplan";
 			sourceTree = "<group>";
@@ -262,13 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3935BD21F8B39800728F50 /* LaunchScreen.storyboard in Resources */,
-				0C148FEB22453D0800C061D2 /* MontagAdressen.plist in Resources */,
-				0C148FEF22453D3100C061D2 /* FreitagAdressen.plist in Resources */,
+				0C148FEF22453D3100C061D2 /* Adressen.plist in Resources */,
 				0C3935BA21F8B39800728F50 /* Assets.xcassets in Resources */,
-				0C148FF522453D6F00C061D2 /* AuswärtigerAdressen.plist in Resources */,
-				0C148FED22453D2200C061D2 /* DienstagAdressen.plist in Resources */,
-				0C148FF122453D4300C061D2 /* SamstagAdressen.plist in Resources */,
-				0C148FF322453D5D00C061D2 /* SonntagAdressen.plist in Resources */,
 				0C3935B821F8B39700728F50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,8 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5DD5372272066A006BCC09 /* SonntagViewController.swift in Sources */,
 				0C9C5C762211A8F2005DF1B5 /* AddressListClass.swift in Sources */,
+				0C5DD53D2272068A006BCC09 /* AustwärtigerViewController.swift in Sources */,
+				0C5DD53922720676006BCC09 /* MontagViewController.swift in Sources */,
+				0C5DD53B22720680006BCC09 /* DienstagViewController.swift in Sources */,
+				0C5DD5352272065A006BCC09 /* SamstagViewController.swift in Sources */,
 				0C3935B521F8B39700728F50 /* AdressListViewController.swift in Sources */,
+				0C5DD53322720651006BCC09 /* FreitagViewController.swift in Sources */,
 				0C3935B321F8B39700728F50 /* AppDelegate.swift in Sources */,
 				0C3935E121F8B50F00728F50 /* SettingsViewController.swift in Sources */,
 			);

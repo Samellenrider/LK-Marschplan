@@ -37,6 +37,7 @@ class AdressListViewController: UIViewController {
     @IBOutlet var addressTable: UITableView!
     @IBOutlet var settingsButton: UIBarButtonItem!
     
+    
     @IBOutlet var freitagButton: UIButton!
     @IBOutlet var samstagButton: UIButton!
     @IBOutlet var sonntagButton: UIButton!
