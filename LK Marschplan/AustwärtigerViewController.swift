@@ -1,11 +1,3 @@
-//
-//  AustwertigerViewController.swift
-//  LK Marschplan
-//
-//  Created by Sam Ellenrieder on 25/04/2019.
-//  Copyright © 2019 Sam. All rights reserved.
-//
-
 import UIKit
 
 class AustwärtigerViewController: UITableViewController {

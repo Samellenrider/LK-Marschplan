@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  LK Marschplan
-//
-//  Created by Sam Ellenrieder on 23/01/2019.
-//  Copyright © 2019 Sam. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
