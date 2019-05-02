@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 class FreitagViewController: UITableViewController {
     
@@ -11,6 +12,14 @@ class FreitagViewController: UITableViewController {
         let dict = NSDictionary(contentsOfFile: path)
         
         tableData = dict!.object(forKey: "Freitag") as! [String]
+        
+    }
+    
+    func openAddressInGoogle(_ address: String) {
+        let urlString = "comgooglemaps://?saddr=&daddr=\(address)&directionsmode=walking"
+        let url = URL(string: urlString)
+        
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -27,9 +36,15 @@ class FreitagViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) 
         
         // Configure the cell...
+        cell.accessoryType = .detailDisclosureButton
+        
         cell.textLabel!.text = tableData[indexPath.row]
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        openAddressInGoogle("Hössel+12")
     }
 
 }
